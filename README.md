@@ -41,12 +41,35 @@ asdf install erlang
 Ao testar as rotas no Insomnia utilizei a seguinte estrutura em json:
 
 ```
+Para criar um User:
+
 {
-"user_id": "",
+	"address": "",
+	"email": "",
+	"name": "",
+	"password": ""
+	
+}
+
+
+Para criar um Product:
+
+{
+	"name": "",
+	"description": "",
+	"price": "",
+	"photo": "/priv/path.jpeg"
+	
+}
+
+
+Para criar um Order: 
+
+{"user_id": "",
 "products": [
    {
          "id": "",
-         "quantity": 2
+         "quantity": 1
      },
    {
          "id": "",
@@ -59,9 +82,6 @@ Ao testar as rotas no Insomnia utilizei a seguinte estrutura em json:
 
 
 ```
-
-fazendo dessa forma os testes de chamadas http de user e products.
-
 
 ## :computer: Tecnologias
 Tecnologias usadas para construir o aplicativo:
